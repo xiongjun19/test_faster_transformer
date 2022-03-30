@@ -1,6 +1,6 @@
 # Run encoder on pytorch
 # 1 Run FasterTransformer encoder under FP32 on PyTorch
-cd /workspace/ftf/
+cd /workspace/FasterTransformer/build
 ./bin/encoder_gemm 32 32 12 64 0 0
 python pytorch/encoder_sample.py 32 12 32 12 64 --time
 

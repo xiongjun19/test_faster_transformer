@@ -15,5 +15,3 @@ RUN pip install transformers==2.5.1   && \
     pip install opennmt-py==1.1.1
 
 
-RUN apt-get install bc
-
