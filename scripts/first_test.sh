@@ -1,3 +1,5 @@
+set -x
+
 # Run encoder on pytorch
 # 1 Run FasterTransformer encoder under FP32 on PyTorch
 cd /workspace/FasterTransformer/build
